@@ -14,6 +14,6 @@ This notebook is designed to **predict house prices based on multiple factors** 
 You can use this model for your practice and understanding by cloning the repositoy or downloading the model.
 
 
-## 2 Gradient Descending Model
+## 3 Gradient Descending Model
 
 This script uses a method called gradient descent to find the best line that predicts values based on given data points. It starts by importing the NumPy library and defining the Gradient_Descent function. This function begins with the slope (m) and intercept (b) set to zero and updates them to reduce the error between the predicted and actual values. The learning rate is set to 0.08, and the function runs for 5000 steps. In each step, the script calculates the predicted values, finds the error, and adjusts m and b to make the error smaller. The updated values and error are printed in each step. At the end, the script shows how this process works with a simple example dataset, predicting values based on a small set of x and y coordinates.
