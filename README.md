@@ -22,11 +22,5 @@ This script uses a method called gradient descent to find the best line that pre
 
 You can use this model for your practice and understanding by cloning the repositoy or downloading the model.
 
-## 4 One Hot Encoding
 
-The notebook "One Hot Encoding.ipynb" is the demonstration for predicting the house prices using linear regression in Python, with a focus on using **dummy variables** and **one-hot encoding** to handle categorical data. 
-
-The notebook starts by importing necessary libraries (Pandas and NumPy) and loading a dataset called "homeprices2.csv" into a DataFrame. It then creates dummy variables for the categorical column 'town' using pd.get_dummies(), concatenates these dummy variables back to the original DataFrame, and drops the original 'town' column and one of the dummy variable columns to avoid the dummy variable trap. After preparing the data, it uses Scikit-Learn's LinearRegression to train a model on the predictors and target variable ('price'). The notebook concludes by making predictions with the trained model and evaluating its performance using the score method.
-
-You can use this model for your practice and understanding by cloning the repositoy or downloading the model.
 
