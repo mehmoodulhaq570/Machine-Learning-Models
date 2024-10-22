@@ -33,11 +33,7 @@ The notebook starts by importing necessary libraries (Pandas and NumPy) and load
 You can use this model for your practice and understanding by cloning the repositoy or downloading the model.
 
 
-## 5 Train Test Split
 
-The Jupyter notebook **Test Train Split.ipynb** shows how to build a simple machine learning model to predict car prices using the car's mileage and age. It starts by loading the car prices data and then visualizes how mileage and age affect the price with scatter plots. The **main focus of the notebook is to show how to use the train_test_split method from scikit-learn** to divide the data into training and test sets. This method helps in separating the data so that some of it is used to train the model, and the rest is used to test how well the model performs. After splitting the data, the notebook trains a linear regression model on the training data, makes predictions on the test data, and then checks the accuracy of the model. This step-by-step process is a practical way to learn how to prepare data and build a predictive model.
-
-You can use this model for your practice and understanding by cloning the repositoy or downloading the model.
 
 
 
