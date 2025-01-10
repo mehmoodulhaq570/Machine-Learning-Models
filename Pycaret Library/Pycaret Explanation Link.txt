@@ -1,0 +1,9 @@
+https://analyticsindiamag.com/ai-mysteries/building-an-ml-classification-model-using-pycaret/
+
+conda create --name pycaret_env python=3.10 (download python 3.10.10)
+conda activate pycaret_env
+pip install pycaret, pandas, numpy
+or
+conda install -c conda-forge pycaret
+pip install jupyter
+jupyter notebook
